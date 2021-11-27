@@ -21,7 +21,6 @@ const emailTest = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 
  if (!emailTest.test(email.value)){
-   console.log(email.value);
    warningImg[2].classList.add("visible");
    warningText[2].classList.add("visible");
    inputField[2].classList.add("red-border");
