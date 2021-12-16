@@ -19,7 +19,6 @@ button {
 .container {
   display: flex;
   align-items: center;
-  height: 100vh;
   padding: 3% 10%;
 }
 
@@ -45,8 +44,9 @@ button {
 
 /* Inputs */
 form div input {
-  width: 86%;
+  width: 100%;
   height: 50px;
+  box-sizing: border-box;
   border: 1px solid hsl(246, 25%, 77%);
   border-radius: 4px;
   font-family: 'Poppins', sans-serif;
@@ -143,6 +143,7 @@ form div input {
   .container {
     flex-direction: column;
     padding 10% 3%;
+    margin-bottom: 3%;
   }
 
   .text-container {
@@ -163,9 +164,10 @@ form div input {
 
 /* Attributions */
 .attribution {
+  height: 1rem;
+  width: 100%;
   font-size: 11px;
   text-align: center;
-  margin: 10px;
 }
 
 .attribution a {
