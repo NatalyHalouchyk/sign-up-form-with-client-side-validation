@@ -122,7 +122,6 @@ form div input {
 }
 
 
-
 /* Classes for JS use */
 
 .visible {
@@ -142,7 +141,7 @@ form div input {
 @media (max-width: 870px) {
   .container {
     flex-direction: column;
-    padding 10% 3%;
+    padding: 10% 1%;
     margin-bottom: 3%;
   }
 
