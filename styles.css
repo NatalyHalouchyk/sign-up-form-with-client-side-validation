@@ -141,7 +141,7 @@ form div input {
 @media (max-width: 870px) {
   .container {
     flex-direction: column;
-    padding: 10% 1%;
+    padding: 10% 3%;
     margin-bottom: 3%;
   }
 
